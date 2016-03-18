@@ -1,0 +1,19 @@
+{
+  "name": "meteor-imports-webpack-plugin-examples-basic",
+  "version": "1.0.0",
+  "description": "Example to show how to import Meteor packages in a normal Webpack app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --display-modules --content-base build/"
+  },
+  "keywords": [
+    "meteor",
+    "webpack"
+  ],
+  "author": "luisherranz",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
