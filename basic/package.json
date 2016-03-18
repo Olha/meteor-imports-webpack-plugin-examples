@@ -4,7 +4,8 @@
   "description": "Example to show how to import Meteor packages in a normal Webpack app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --display-modules --content-base build/"
+    "start": "webpack-dev-server --display-modules --content-base build/",
+    "iron-node": "iron-node node_modules/webpack/bin/webpack.js"
   },
   "keywords": [
     "meteor",
