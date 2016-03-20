@@ -4,14 +4,14 @@
   "description": "Example to show how to import Meteor packages in a normal Webpack app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --display-modules --content-base build/",
-    "iron-node": "iron-node node_modules/webpack/bin/webpack.js"
+    "client": "webpack-dev-server --inline --content-base build/",
+    "server": "(cd server && meteor)"
   },
   "keywords": [
     "meteor",
     "webpack"
   ],
-  "author": "luisherranz",
+  "author": "Luis Herranz <luisherranz@gmail.com> (https://github.com/luisherranz)",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^1.12.14",

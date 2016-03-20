@@ -1,17 +1,12 @@
 var MeteorImportsPlugin = require('meteor-imports-webpack-plugin');
 
 module.exports = {
-    devtool: '#eval-source-map',
-    entry: {
-      app: './client/entry.js',
-    },
+    entry: './client/entry.js',
     output: {
       path: './build',
       filename: 'bundle.js'
     },
-    module: {
-      loaders: [],
-    },
+    module: { loaders: [] }, // at least one loader or an empty array is needed.
     plugins: [
       new MeteorImportsPlugin({
         ROOT_URL: 'http://localhost:3000/',
