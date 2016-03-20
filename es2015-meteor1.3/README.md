@@ -1,4 +1,4 @@
-# ES5 with Meteor 1.2 example
+# ES2015 with Meteor 1.3 example
 
 Install the NPM dependencies.
 

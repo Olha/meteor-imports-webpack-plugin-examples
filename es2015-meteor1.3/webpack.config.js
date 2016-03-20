@@ -6,13 +6,23 @@ module.exports = {
       path: './build',
       filename: 'bundle.js'
     },
-    module: { loaders: [] }, // at least one loader or an empty array is needed.
+    module: {
+      loaders: [
+        {
+          test: /\.js$/,
+          loader: 'babel',
+          include: /client\//
+        }
+      ]
+    },
     plugins: [
       new MeteorImportsPlugin({
         ROOT_URL: 'http://localhost:3000/',
         DDP_DEFAULT_CONNECTION_URL: 'http://localhost:3000/',
         PUBLIC_SETTINGS: {},
-        meteorFolder: 'server'
+        meteorFolder: 'server',
+        meteorEnv: {},
+        exclude: ['ecmascript']
       })
     ]
 };
