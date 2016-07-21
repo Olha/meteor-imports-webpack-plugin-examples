@@ -8,6 +8,10 @@
     "client": "webpack-dev-server --inline --content-base build/",
     "server": "(cd server && meteor)"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisherranz/meteor-imports-webpack-plugin-examples.git"
+  },
   "keywords": [
     "meteor",
     "webpack"

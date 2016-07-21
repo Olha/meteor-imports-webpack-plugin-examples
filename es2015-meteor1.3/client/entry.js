@@ -10,5 +10,5 @@ Meteor.call('insertPost', 'Some Post Title', '/post');
 Meteor.subscribe('posts');
 
 Tracker.autorun(() => {
-  console.log('Nnumber of posts: ' + Posts.find().count());
+  console.log('Number of posts: ' + Posts.find().count());
 });

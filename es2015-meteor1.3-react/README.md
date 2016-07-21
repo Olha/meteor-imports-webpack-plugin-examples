@@ -1,6 +1,6 @@
 # ES2015 with Meteor 1.3 example
 
-Example using ES2015 transpiled with Babel, Meteor 1.3 and React with HMR.
+Example using ES2015 transpiled with Babel and Meteor 1.3 using React.
 
 ----
 
